@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MP2703")(type "KiCad")(uri "C:/Users/Tom Fleet/repo/modules/BC832A")(options "")(descr ""))
+  (lib (name "proj")(type "KiCad")(uri "D:/rep02d/kicad_eda/BC832A/BC832A")(options "")(descr ""))
+  (lib (name "bt832lib")(type "KiCad")(uri "${KIPRJMOD}/bt832lib.pretty")(options "")(descr ""))
+)

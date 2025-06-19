@@ -1,0 +1,216 @@
+(footprint "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED handsolder")
+	(property "Reference" "REF**"
+		(at 0 -1.17 180)
+		(layer "F.SilkS")
+		(uuid "44471acb-f5bf-45c7-a90c-e80020df8f71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 0 1.17 180)
+		(layer "F.Fab")
+		(uuid "09c343fd-f288-4476-b873-968e3eaae4b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c0db831-eb91-4e44-a7a4-f694dccec2ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Light emitting diode"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8104b8d-3e61-4382-853b-8390ccba83f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd475516-de22-4fbd-aa1f-591d778077b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.265 0)
+		(end -1.215 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d450985f-95b9-4569-9e05-9d8a3456577f")
+	)
+	(fp_line
+		(start -1.110002 0.469998)
+		(end -1.11 -0.470001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fab4e2c-0824-4bf7-b0e5-e9b432355fbb")
+	)
+	(fp_line
+		(start -1.11 -0.470001)
+		(end 1.110002 -0.469998)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8cb52a9-657b-4349-bfeb-4de3c5343d69")
+	)
+	(fp_line
+		(start 1.11 0.470001)
+		(end -1.110002 0.469998)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53d20286-0a46-4068-bc07-8faeee5fe95c")
+	)
+	(fp_line
+		(start 1.110002 -0.469998)
+		(end 1.11 0.470001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fff01532-48c6-4568-b483-12c447a9ec84")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cad7c57f-b47f-459f-a409-4f1032ea0d41")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c95753a5-ddf7-4f52-9644-c0a2ef8644fa")
+	)
+	(fp_line
+		(start -0.399998 0.249998)
+		(end -0.399998 -0.249998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "881dd4d7-aabd-4d46-9dcd-55246dd1e5ba")
+	)
+	(fp_line
+		(start -0.3 0.249999)
+		(end -0.3 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7de93cef-74a3-45f8-9f88-eee7c50ddc36")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5783e2dc-0976-464a-99bd-c5b4c5d09cbc")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d60232bb-daf1-4c99-8707-5fdfcf65e994")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "f2bbac36-9513-48bc-a479-e37a9aa320af")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5725 0)
+		(size 0.765 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7c26129c-3d9e-45d3-8def-b56f57dd75ee")
+	)
+	(pad "2" smd roundrect
+		(at 0.5725 0)
+		(size 0.765 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3d131180-c073-4fb5-b100-4688c322abe3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

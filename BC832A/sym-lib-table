@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FANSTEL")(type "KiCad")(uri "C:/Users/Tom Fleet/repo/modules/BC832A/FANSTEL.kicad_sym")(options "")(descr ""))
+  (lib (name "MP2703GRP")(type "KiCad")(uri "C:/Users/Tom Fleet/repo/modules/BC832A/MP2703GRP-0000-Z.kicad_sym")(options "")(descr ""))
+  (lib (name "2169900001")(type "KiCad")(uri "${KIPRJMOD}/2169900001.kicad_sym")(options "")(descr ""))
+  (lib (name "bt832symb")(type "KiCad")(uri "${KIPRJMOD}/bt832symb.kicad_sym")(options "")(descr ""))
+)

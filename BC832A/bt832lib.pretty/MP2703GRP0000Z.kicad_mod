@@ -1,0 +1,343 @@
+(footprint "MP2703GRP0000Z"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "QFN-10 (2mmx2.5mm)_2025-2")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "057da508-b2fc-4c4b-872e-083d9026bcf7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MP2703GRP-0000-Z"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "febeb173-4eaf-4707-bb26-8c41546824a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2703GRP/document_id/10995/"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a2384e6-7f66-4c5b-af57-4c278d4dafda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "26V Input, 1A, Linear Charger with Battery Diagnostics for 1 Cell or 2 Cells , 14.4V , -40C ~ 125C (TJ)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b807f4d8-d590-4772-bcaa-259fcb363b49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23b2eb3f-23ef-489b-861c-a4575fc95a3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Monolithic Power Systems (MPS)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37277071-033b-41bb-81e1-ba4ab9c5fc90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MP2703GRP-0000-Z"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6364572b-18bb-4db1-95ca-9645289f4b2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32628858-f563-4f04-a7f0-52e677396daa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4fff9bf-c36f-4d34-bcd4-340179311ac4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8450eaf-0940-4c6a-a2cb-b5690838d0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a0d09ad-4271-429c-9f61-10edd6688395")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd allow_missing_courtyard)
+	(fp_line
+		(start -1.800001 -0.800001)
+		(end -1.800001 -0.800001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ee6fc5f-c273-43fa-9e39-1c18fb7e0cfe")
+	)
+	(fp_line
+		(start -1.699999 -0.8)
+		(end -1.699999 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff3fd58d-1042-4406-98e2-105d2e54c1f7")
+	)
+	(fp_line
+		(start -1.000001 -1.249999)
+		(end 0.999998 -1.249999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96d2b8ef-3d36-46c3-bac7-ee49e9183419")
+	)
+	(fp_line
+		(start -0.999998 1.249999)
+		(end 1.000001 1.249999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bbc8447-0fca-44eb-bf78-683243ae0998")
+	)
+	(fp_arc
+		(start -1.800001 -0.800001)
+		(mid -1.749999 -0.85)
+		(end -1.699999 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a77fffb2-77b7-4ad2-9a8a-3428ac4e4a48")
+	)
+	(fp_arc
+		(start -1.699999 -0.8)
+		(mid -1.749999 -0.75)
+		(end -1.800001 -0.800001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39895211-64f1-4ff7-b81b-268b867f302e")
+	)
+	(fp_line
+		(start -1.000001 -1.249999)
+		(end 0.999998 -1.249999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3fb607cb-75b9-406f-b6ec-1da13e3c62fd")
+	)
+	(fp_line
+		(start -0.999998 1.249999)
+		(end -1.000001 -1.249999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e8bc618-208f-46f4-a686-81fcd53a944b")
+	)
+	(fp_line
+		(start 0.999998 -1.249999)
+		(end 1.000001 1.249999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c8ffcd0-edf2-4cb0-85a1-52ec08da043d")
+	)
+	(fp_line
+		(start 1.000001 1.249999)
+		(end -0.999998 1.249999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b205385-c602-48f5-8e0a-31ae6a80e366")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "9d4a2821-7ff4-4737-b58b-0e82a11dc8df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.849999 -0.8 90)
+		(size 0.2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9f7a61e2-06e9-4284-a510-141f946c32e9")
+	)
+	(pad "2" smd rect
+		(at -0.9 -0.399999 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c3d0ad1-2db9-4ffe-b2b2-e73dc84d8841")
+	)
+	(pad "3" smd rect
+		(at -0.9 0 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa5c3c34-4e0a-42cd-bbe0-ad6075e89a14")
+	)
+	(pad "4" smd rect
+		(at -0.9 0.4 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6a94ccf0-9d10-44b0-b6ef-70f3522442d9")
+	)
+	(pad "5" smd rect
+		(at -0.900001 0.8 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3dd4d59-3320-4913-9c2d-18831aa56bdf")
+	)
+	(pad "6" smd rect
+		(at 0.899999 0.800001 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "af356f09-d3c2-4731-975a-131e5e35f257")
+	)
+	(pad "7" smd rect
+		(at 0.9 0.399999 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "92f2bb82-0cd3-4d8e-90b1-2a3af0543600")
+	)
+	(pad "8" smd rect
+		(at 0.9 0 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0450fcdc-e7bd-4c5b-89fd-85a734ebe354")
+	)
+	(pad "9" smd rect
+		(at 0.9 -0.4 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a06af4b-35d4-455e-95d3-339a287a2aa9")
+	)
+	(pad "10" smd rect
+		(at 0.900001 -0.8 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c337d0b-29a1-47b9-a2de-401085da7d7b")
+	)
+	(embedded_fonts no)
+	(model "MP2703GRP-0000-Z.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

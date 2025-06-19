@@ -1,0 +1,243 @@
+(footprint "SW_SPST_B3U-1000P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
+	(tags "Tactile Switch")
+	(property "Reference" "REF**"
+		(at -0.000001 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "09bcfc5e-94c0-4964-a278-ba656d630b0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Omron_B3FS"
+		(at 0.000001 2.5 180)
+		(layer "F.Fab")
+		(uuid "b5a2b211-8f1e-4be3-84c5-475def763f02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84dc4173-c42c-46e2-935c-6e5d17f1cc15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c16f0c4-9f17-411b-b1f6-23d5a8e02579")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.650001 1.399999)
+		(end 1.649998 1.400001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc6e6714-a744-4c62-87fc-2031903b0e1d")
+	)
+	(fp_line
+		(start -1.65 -1.1)
+		(end -1.649998 -1.400001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06758668-9807-4847-a35a-545e505cd83e")
+	)
+	(fp_line
+		(start -1.65 1.1)
+		(end -1.650001 1.399999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81d26e57-42d2-4f27-b674-941607df04bb")
+	)
+	(fp_line
+		(start -1.649998 -1.400001)
+		(end 1.650001 -1.399999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc0bd8e7-17ac-4e65-a5c5-8020179a712c")
+	)
+	(fp_line
+		(start 1.649998 1.400001)
+		(end 1.65 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0ef826b-c925-4473-9a20-70ba26df7189")
+	)
+	(fp_line
+		(start 1.650001 -1.399999)
+		(end 1.65 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a0c9a59-eb15-401a-b662-aad7aaa6288e")
+	)
+	(fp_line
+		(start -2.4 -1.65)
+		(end -2.4 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71a8b704-6102-4583-bcbc-d4d9e001d715")
+	)
+	(fp_line
+		(start -2.4 1.65)
+		(end 2.4 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a5f76a9-b59e-4583-a791-215487e38a91")
+	)
+	(fp_line
+		(start 2.4 -1.65)
+		(end -2.4 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85e2a304-b966-4bd5-877d-705d2928675b")
+	)
+	(fp_line
+		(start 2.4 1.65)
+		(end 2.4 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "036d38be-963d-404d-b5b5-41ec3f05e23c")
+	)
+	(fp_line
+		(start -1.500004 -1.250002)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ca514ad-087c-4b5e-9d4b-dc583a3fe9f5")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end -1.500004 -1.250002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91f8d3cd-b4c3-420e-8a35-a32b3f3bb6c7")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end 1.500004 1.250002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5cb53b3b-2958-472e-9271-789e6ce7929b")
+	)
+	(fp_line
+		(start 1.500004 1.250002)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f8b440b-62d8-4df8-85fc-eb875ff11970")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "87fb901d-607d-4e4f-810b-da7a27db7bda")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.000001 -2.5 180)
+		(layer "F.Fab")
+		(uuid "41d94a0b-4194-409b-a6c9-10d5199b1385")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 0.9 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "196867e0-46c3-45e5-85ab-f993cb968f56")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 0.9 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "167fa4ff-7360-45ef-ad73-7de04d507048")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

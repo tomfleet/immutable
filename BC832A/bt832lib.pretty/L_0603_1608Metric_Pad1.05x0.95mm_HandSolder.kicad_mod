@@ -1,0 +1,192 @@
+(footprint "L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "inductor handsolder")
+	(property "Reference" "REF**"
+		(at -0.000001 -1.429999 0)
+		(layer "F.SilkS")
+		(uuid "481f9584-9d2d-4b9f-8356-1627f3d3b0bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FerriteBead_Small"
+		(at 0.000001 1.429999 0)
+		(layer "F.Fab")
+		(uuid "2e59fb2e-4f77-4825-8f42-ab3e2450e986")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "423e64b4-1ad0-42e5-b11d-8319ac4130d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ferrite bead, small symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7083ca1-603c-4c40-b01c-7e3a6cd9c384")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.171268 -0.509999)
+		(end 0.171266 -0.509999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c693516d-8e0b-497c-af59-3272ae361c36")
+	)
+	(fp_line
+		(start -0.171266 0.509999)
+		(end 0.171268 0.509999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a7225fd-9fa1-4743-858b-866279cce414")
+	)
+	(fp_line
+		(start -1.650001 -0.729999)
+		(end 1.649998 -0.729999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a9ae4b9-db01-4489-ae08-3ddca3e292f2")
+	)
+	(fp_line
+		(start -1.649998 0.729999)
+		(end -1.650001 -0.729999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47c27ba4-25c4-4437-a11f-076385e58cb4")
+	)
+	(fp_line
+		(start 1.649998 -0.729999)
+		(end 1.650001 0.729999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02e7a411-6b7b-4611-9c2d-ec52027e054a")
+	)
+	(fp_line
+		(start 1.650001 0.729999)
+		(end -1.649998 0.729999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80fede06-16a2-49f6-95f5-a2485e06ecad")
+	)
+	(fp_line
+		(start -0.800002 -0.4)
+		(end 0.800001 -0.399999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3e88c99-a73f-4a9f-ad91-2b693468b7ec")
+	)
+	(fp_line
+		(start -0.800001 0.399999)
+		(end -0.800002 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e58b77cf-0271-4036-81a3-fec615a93f9a")
+	)
+	(fp_line
+		(start 0.800001 -0.399999)
+		(end 0.800002 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7e728ab-f9f0-4f48-86d9-2fb88d624ee9")
+	)
+	(fp_line
+		(start 0.800002 0.4)
+		(end -0.800001 0.399999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0d258f4-3a64-4342-8b50-1a035a776040")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "78e33626-ab35-4cdc-9943-cbd505a627f9")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.875 0)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d27f0fd0-eafe-4b2d-b79e-0f08290bff89")
+	)
+	(pad "2" smd roundrect
+		(at 0.875 0)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "72857e7d-9df3-4df1-ae10-8577cb155a36")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
